@@ -46,9 +46,9 @@ Root Mean Squared Error (RMSE) is the square root of the mean of the squared err
 
 Comparing these metrics:
 
--MAE is the easiest to understand because it’s the average error.
--MSE is more popular than MAE because MSE “punishes” larger errors, which tends to be useful in the real world.
--RMSE is even more popular than MSE because RMSE is interpretable in the “y” units.
+- MAE is the easiest to understand because it’s the average error.
+- MSE is more popular than MAE because MSE “punishes” larger errors, which tends to be useful in the real world.
+- RMSE is even more popular than MSE because RMSE is interpretable in the “y” units.
 
 ## Results
 
