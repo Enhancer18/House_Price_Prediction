@@ -32,6 +32,25 @@ pip install numpy pandas matplotlib scikit-learn
 
 4. After the model training is completed, it will predict house prices for the testing set and display the evaluation metrics such as mean absolute error, mean squared error, and R-squared score.
 
+## Regression Evaluation Metrics
+
+
+Here are three common evaluation metrics for regression problems:
+Mean Absolute Error (MAE) is the mean of the absolute value of the errors:
+![alt text](https://render.githubusercontent.com/render/math?math=%5Cfrac%201n%5Csum_%7Bi%3D1%7D%5En%7Cy_i-%5Chat%7By%7D_i%7C&mode=display)
+
+Mean Squared Error (MSE) is the mean of the squared errors:
+![alt text](https://render.githubusercontent.com/render/math?math=%5Cfrac%201n%5Csum_%7Bi%3D1%7D%5En%28y_i-%5Chat%7By%7D_i%29%5E2&mode=display)
+
+Root Mean Squared Error (RMSE) is the square root of the mean of the squared errors:
+![alt text](https://render.githubusercontent.com/render/math?math=%5Csqrt%7B%5Cfrac%201n%5Csum_%7Bi%3D1%7D%5En%28y_i-%5Chat%7By%7D_i%29%5E2%7D&mode=display)
+
+Comparing these metrics:
+
+MAE is the easiest to understand because it’s the average error.
+MSE is more popular than MAE because MSE “punishes” larger errors, which tends to be useful in the real world.
+RMSE is even more popular than MSE because RMSE is interpretable in the “y” units.
+
 ## Results
 
 The results of the house price prediction are displayed after the model training and evaluation. These results include the evaluation metrics and can be used to assess the accuracy and performance of the linear regression model.
