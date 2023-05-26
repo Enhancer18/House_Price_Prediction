@@ -34,7 +34,6 @@ pip install numpy pandas matplotlib scikit-learn
 
 ## Regression Evaluation Metrics
 
-
 Here are three common evaluation metrics for regression problems:
 Mean Absolute Error (MAE) is the mean of the absolute value of the errors:
 ![alt text](https://render.githubusercontent.com/render/math?math=%5Cfrac%201n%5Csum_%7Bi%3D1%7D%5En%7Cy_i-%5Chat%7By%7D_i%7C&mode=display)
@@ -47,9 +46,9 @@ Root Mean Squared Error (RMSE) is the square root of the mean of the squared err
 
 Comparing these metrics:
 
-MAE is the easiest to understand because it’s the average error.
-MSE is more popular than MAE because MSE “punishes” larger errors, which tends to be useful in the real world.
-RMSE is even more popular than MSE because RMSE is interpretable in the “y” units.
+-MAE is the easiest to understand because it’s the average error.
+-MSE is more popular than MAE because MSE “punishes” larger errors, which tends to be useful in the real world.
+-RMSE is even more popular than MSE because RMSE is interpretable in the “y” units.
 
 ## Results
 
